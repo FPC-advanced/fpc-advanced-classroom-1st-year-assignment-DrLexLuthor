@@ -11,7 +11,7 @@ int sum;
 
 sum=a+b;
 
-printf("the ans is %d",&sum);
+printf("the ans is %d",sum);
 
     return 0;
 }
