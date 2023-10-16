@@ -1,0 +1,9 @@
+Breakpoint 1 at 0x40146e: file c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem01.c, line 5.
+Starting program: c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem01.exe 
+[New Thread 11672.0x4044]
+[New Thread 11672.0x1290]
+
+Breakpoint 1, main () at c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem01.c:5
+5	printf("Amogh.p");
+Continuing.
+[Inferior 1 (process 11672) exited normally]
