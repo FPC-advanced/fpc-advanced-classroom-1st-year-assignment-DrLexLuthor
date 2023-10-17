@@ -17,3 +17,16 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03_session.txt
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git add .
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git commit -m "committed 10/17/2023, 12:09:28 PM"
+[main 0a88d08] committed 10/17/2023, 12:09:28 PM
+ 1 file changed, 19 insertions(+)
+ create mode 100644 set01/problem03_session.txt
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git push
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231017121920
+**********************
