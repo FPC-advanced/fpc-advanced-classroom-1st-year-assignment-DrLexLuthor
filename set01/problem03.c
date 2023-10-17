@@ -6,8 +6,7 @@ void output(int a, int b, int sum);
 
 int input(){
 
-int a,b;
-
+printf()
 
 
 
