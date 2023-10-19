@@ -17,3 +17,39 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03_session.txt
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> gcc -g "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.c" -o "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.exe" 2>&1
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.exe"
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.exe
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> ./problem03
+./problem03 : The term './problem03' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ./problem03
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (./problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+./problem03 : The term './problem03' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ./problem03
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (./problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> .\problem03
+.\problem03 : The term '.\problem03' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\problem03
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\problem03 : The term '.\problem03' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\problem03
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
