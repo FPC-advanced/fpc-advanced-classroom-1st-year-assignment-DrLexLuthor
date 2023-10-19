@@ -23,3 +23,8 @@ PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git push
 
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019160949
+**********************
