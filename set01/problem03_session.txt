@@ -21,3 +21,5 @@ PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git commit -m "committed 10/19/2023, 4:00:08 PM"
 
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> git push
+
