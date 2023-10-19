@@ -53,3 +53,52 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (.\problem03:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> problem03
+problem03 : The term 'problem03' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ problem03
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+problem03 : The term 'problem03' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ problem03
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> \problem03
+\problem03 : The term '\problem03' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \problem03
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+\problem03 : The term '\problem03' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \problem03
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\problem03:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> .\problem03.exe
+.\problem03.exe : The term '.\problem03.exe' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ .\problem03.exe
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem03.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\problem03.exe : The term '.\problem03.exe' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name,
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\problem03.exe
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem03.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
