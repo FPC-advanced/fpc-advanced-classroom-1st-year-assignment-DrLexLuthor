@@ -143,3 +143,19 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (./a.exe:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> .\problem02
+.\problem02 : The term '.\problem02' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\problem02
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem02:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\problem02 : The term '.\problem02' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\problem02
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\problem02:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
