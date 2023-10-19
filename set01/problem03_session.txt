@@ -21,3 +21,8 @@ PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.exe"
 c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem03.exe
+PS C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019102204
+**********************
