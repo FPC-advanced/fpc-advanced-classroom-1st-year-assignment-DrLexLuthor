@@ -15,7 +15,7 @@ void compare(int a, int b, int c,int *g, int *largest){
  if(a>b&&a>c)
     {*largest=a;*g=0;}
    else if(b>a&&b>c){
-        *largest =b;*g=0;
+        *largest=b;*g=0;
     }
   else if(c>a&&c>b){
         *largest=c;*g=0;
@@ -27,9 +27,9 @@ void compare(int a, int b, int c,int *g, int *largest){
 
 void output(int g,int largest){
     if(g!=1){
-        printf("the largest no %d",largest);
+        printf("the largest number %d",largest);
     }else{
-        printf("thy are equal");
+        printf("they are equal");
     }
 }
 
