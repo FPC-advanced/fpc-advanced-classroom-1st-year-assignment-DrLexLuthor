@@ -1,7 +1,7 @@
 #include<stdio.h>
 int input(int *a, int *b, int *c);
 void compare(int a, int b, int c,int g, int *largest);
-void output(int a, int b, int c, int largest);
+void output(int g,int largest)
 int input(int *a,int *b ,int *c){
    
     printf("enter a number\n");
@@ -25,9 +25,9 @@ void compare(int a, int b, int c,int g, int *largest){
        }
     }
 
-void output(int ,int largest){
-    if(r!=1){
-        printf("the largest no %d",lg);
+void output(int g,int largest){
+    if(g!=1){
+        printf("the largest no %d",largest);
     }else{
         printf("thy are equal");
     }
