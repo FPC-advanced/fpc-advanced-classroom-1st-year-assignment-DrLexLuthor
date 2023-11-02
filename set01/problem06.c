@@ -1,6 +1,6 @@
 #include<stdio.h>
 int input(int *a, int *b, int *c);
-void compare(int a, int b, int c, int *largest);
+void compare(int a, int b, int c,int g, int *largest);
 void output(int a, int b, int c, int largest);
 int input(int *a,int *b ,int *c){
    
@@ -13,9 +13,9 @@ void compare(int a,int b,int c ,int *r,int *lg){
 
  
  if(a>b&&a>c)
-    {*lg=a;*r=0;}
+    {*lg=a;*g=0;}
    else if(b>a&&b>c){
-        *lg =b;*r=0;
+        *lg =b;*g=0;
     }
   else if(c>a&&c>b){
         *lg=c;*r=0;
