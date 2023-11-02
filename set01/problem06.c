@@ -4,12 +4,12 @@ void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
 int input(int *a,int *b ,int *c){
    
-    printf("enter a no");
+    printf("enter a number\n");
     scanf("%d%d%d",a,b,c);
    
 }
 
-void check(int a,int b,int c ,int *r,int *lg){
+void compare(int a,int b,int c ,int *r,int *lg){
 
  
  if(a>b&&a>c)
