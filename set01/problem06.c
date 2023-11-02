@@ -25,7 +25,7 @@ void compare(int a, int b, int c,int g, int *largest){
        }
     }
 
-void output(int a, int b, int c, int largest){
+void output(int ,int largest){
     if(r!=1){
         printf("the largest no %d",lg);
     }else{
