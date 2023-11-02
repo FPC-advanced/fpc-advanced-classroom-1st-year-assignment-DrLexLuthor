@@ -1,6 +1,6 @@
 #include<stdio.h>
 void input(int *a, int *b){
-    printf("enter two numbers");
+    printf("\tenter two numbers\n");
     scanf("%d%d",a,b);
 }
 void adde(int a, int b, int *sum){
