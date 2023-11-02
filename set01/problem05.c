@@ -4,7 +4,7 @@ int compare(int a, int b, int c);
 void output(int largest);
 int input(){
        int n;
-    printf("enter a number\n");
+    printf("\tenter a number\n");
     scanf("%d",&n);
     return n;
 }
@@ -22,7 +22,7 @@ lg = c;
     return lg;
 }
 void output(int largest){
-printf("the largest no  is %d",largest);
+printf("the largest number  is %d",largest);
 }
 int main(){
     int a,b,c,lg;
