@@ -32,3 +32,48 @@ c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-ass
 c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:41: undefined reference to `out'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/2/2023, 12:09:12 PM
+Compilation started at 11/2/2023, 12:09:49 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c: In function 'main':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:39:3: warning: implicit declaration of function 'inp' [-Wimplicit-function-declaration]
+   inp(&a,&b,&c);
+   ^~~
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:40:2: warning: implicit declaration of function 'check' [-Wimplicit-function-declaration]
+  check(a,b,c,&r,&lg);
+  ^~~~~
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:41:2: warning: implicit declaration of function 'out' [-Wimplicit-function-declaration]
+  out(lg,r);
+  ^~~
+C:\Users\amogh\AppData\Local\Temp\ccGtyAk5.o: In function `main':
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:39: undefined reference to `inp'
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:40: undefined reference to `check'
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:41: undefined reference to `out'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/2/2023, 12:09:50 PM
+Compilation started at 11/2/2023, 12:10:49 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c: In function 'main':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:39:3: warning: implicit declaration of function 'inp' [-Wimplicit-function-declaration]
+   inp(&a,&b,&c);
+   ^~~
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:40:2: warning: implicit declaration of function 'check' [-Wimplicit-function-declaration]
+  check(a,b,c,&g,&largest);
+  ^~~~~
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:41:2: warning: implicit declaration of function 'out' [-Wimplicit-function-declaration]
+  out(largest,g);
+  ^~~
+C:\Users\amogh\AppData\Local\Temp\cccu0k3c.o: In function `main':
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:39: undefined reference to `inp'
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:40: undefined reference to `check'
+c:/Users/amogh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-DrLexLuthor/set01/problem06.c:41: undefined reference to `out'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/2/2023, 12:10:50 PM
+Compilation started at 11/2/2023, 12:11:58 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c: In function 'main':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:40:16: warning: passing argument 4 of 'compare' makes integer from pointer without a cast [-Wint-conversion]
+  compare(a,b,c,&g,&largest);
+                ^
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem06.c:12:6: note: expected 'int' but argument is of type 'int *'
+ void compare(int a, int b, int c,int g, int *largest){
+      ^~~~~~~
+Compilation finished at 11/2/2023, 12:11:58 PM
+Compilation started at 11/2/2023, 12:13:10 PM
+Compilation finished at 11/2/2023, 12:13:11 PM
