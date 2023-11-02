@@ -13,12 +13,12 @@ void compare(int a, int b, int c,int g, int *largest){
 
  
  if(a>b&&a>c)
-    {*lg=a;*g=0;}
+    {*largest=a;*g=0;}
    else if(b>a&&b>c){
-        *lg =b;*g=0;
+        *largest =b;*g=0;
     }
   else if(c>a&&c>b){
-        *lg=c;*g=0;
+        *largest=c;*g=0;
     }
     else{
    *g=1;
