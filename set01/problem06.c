@@ -2,7 +2,7 @@
 int input(int *a, int *b, int *c);
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
-int inp(int *a,int *b ,int *c){
+int input(int *a,int *b ,int *c){
    
     printf("enter a no");
     scanf("%d%d%d",a,b,c);
