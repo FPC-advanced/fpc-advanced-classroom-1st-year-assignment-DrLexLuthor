@@ -9,27 +9,27 @@ int input(){
     return n;
 }
 int compare(int a, int b, int c){
-    int lg;
+    int largest;
     if(a>b&&a>c){
-lg = a;
+largest= a;
     }
         if(b>c&&b>a){
-lg = b;
+largest = b;
     }
         if(c>b&&c>a){
-lg = c;
+largest = c;
     }
-    return lg;
+    return largest;
 }
 void output(int largest){
 printf("the largest number  is %d",largest);
 }
 int main(){
-    int a,b,c,lg;
+    int a,b,c,largest;
     a = input();
     b = input();
     c = input();
-    lg = compare(a,b,c);
-    output(lg);
+    largest = compare(a,b,c);
+    output(largest);
     return 0;
 }
