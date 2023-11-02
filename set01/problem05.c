@@ -1,7 +1,7 @@
 #include<stdio.h>
 int input();
 int compare(int a, int b, int c);
-void output(int a, int b, int c, int largest);
+void output(int largest);
 int input(){
        int n;
     printf("enter a no");
@@ -21,8 +21,8 @@ lg = c;
     }
     return lg;
 }
-void output(int a, int b, int c, int largest){
-printf("the largest no  is %d",);
+void output(int largest){
+printf("the largest no  is %d",largest);
 }
 int main(){
     int a,b,c,lg;
