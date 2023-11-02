@@ -9,7 +9,7 @@ int input(int *a,int *b ,int *c){
    
 }
 
-void compare(int a,int b,int c ,int *r,int *lg){
+void compare(int a, int b, int c,int g, int *largest){
 
  
  if(a>b&&a>c)
@@ -18,10 +18,10 @@ void compare(int a,int b,int c ,int *r,int *lg){
         *lg =b;*g=0;
     }
   else if(c>a&&c>b){
-        *lg=c;*r=0;
+        *lg=c;*g=0;
     }
     else{
-   *r=1;
+   *g=1;
        }
     }
 
