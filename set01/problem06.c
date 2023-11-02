@@ -18,14 +18,14 @@ void compare(int a, int b, int c,int g, int *largest){
         *largest =b;g=0;
     }
   else if(c>a&&c>b){
-        *largest=c;*g=0;
+        *largest=c;g=0;
     }
     else{
-   *g=1;
+   g=1;
        }
     }
 
-void out(int lg,int r){
+void output(int lg,int r){
     if(r!=1){
         printf("the largest no %d",lg);
     }else{
