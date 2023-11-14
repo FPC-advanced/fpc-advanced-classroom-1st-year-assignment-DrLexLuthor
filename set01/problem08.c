@@ -1,4 +1,4 @@
-#include<Stdio.h>
+#include<stdio.h>
 int input_array_size();
 void input_array(int size, int a[size]);
 int sum_n_array(int add, int a[add]);
@@ -34,7 +34,7 @@ int sum_n_array(int add, int a[add]){
     for (int i=0; i<add;i++){
 
 
-        sum +=a[add];
+        sum +=a[i];
     }
 
 return sum;
