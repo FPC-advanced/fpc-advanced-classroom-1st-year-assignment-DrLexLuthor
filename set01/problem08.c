@@ -47,15 +47,15 @@ printf("the sum of the numbers are %d\n",sum);
 
 }
 int main() {
-    int n, sum;
+    int size,sum;
 
-    n = input_array_size();
+    size = input_array_size();
 
-    int array[n];
+    int a[size];
 
-    input_array(n, array);
+    input_array(size, a);
 
-    sum = sum_n_array(n, array);
+    sum = sum_n_array(size, a);
 
     output(sum);
 
