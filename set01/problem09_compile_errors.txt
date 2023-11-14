@@ -1,0 +1,30 @@
+Compilation started at 11/14/2023, 11:06:41 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c: In function 'mani':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c:41:4: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+ res=square_root;
+    ^
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/14/2023, 11:06:41 PM
+Compilation started at 11/14/2023, 11:06:47 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c: In function 'mani':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c:41:4: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+ res=square_root;
+    ^
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/14/2023, 11:06:48 PM
+Compilation started at 11/14/2023, 11:07:48 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c: In function 'mani':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem09.c:41:4: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+ res=square_root;
+    ^
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/14/2023, 11:07:48 PM
+Compilation started at 11/14/2023, 11:11:18 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/14/2023, 11:11:18 PM
+Compilation started at 11/14/2023, 11:12:38 PM
+Compilation finished at 11/14/2023, 11:12:38 PM
