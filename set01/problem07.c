@@ -35,7 +35,7 @@ int main(){
 
     sum =sum_n_nos(n);
 
-    output(n, sum);
+    output(sum);
 
     return 0;
 }
