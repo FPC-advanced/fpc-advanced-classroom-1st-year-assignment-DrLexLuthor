@@ -12,16 +12,10 @@ int input_number(){
     
 }
 int is_composite(int n){
-    int i ;
-    for(i=0;i<=11;i++){
-    if (n%i==0&&n!=3&&n!=2&&n!=5&&n!=7&&n!=11){
-        i = 12;
-        return 1;
-    }
-    else{
-        return 0;
-    }
-    }
+{
+
+    
+}
 }
 void output(int n, int result){
     if(result)
