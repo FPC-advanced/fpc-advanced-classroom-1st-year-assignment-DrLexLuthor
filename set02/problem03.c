@@ -36,7 +36,12 @@ void output(int n, int result){
 
 }
 
+else{
 
+    printf("not composit\n");
+
+    
+}
 int main(){
     int n,res;
     n = input_number();
