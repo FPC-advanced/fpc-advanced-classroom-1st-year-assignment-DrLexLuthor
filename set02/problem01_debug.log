@@ -1,0 +1,107 @@
++l
+24	printf("area=%.2f\n",area);
+25	
+26	}
+27	
+28	int main(){
+29	
+30	float base, height, area;
+31	
+32	
+33	input(&base,&height);
++b 9
+Breakpoint 1 at 0x401466: file C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c, line 9.
++b 12
+Breakpoint 2 at 0x401485: file C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c, line 12.
++b 24
+Breakpoint 3 at 0x4014d1: file C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c, line 24.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401466 in input at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:9
+2       breakpoint     keep y   0x00401485 in input at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:12
+3       breakpoint     keep y   0x004014d1 in output at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:24
++r
+Starting program: c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02/./problem01.exe 
+[New Thread 17808.0x4f34]
+[New Thread 17808.0x4dd8]
+
+Breakpoint 1, input (base=0x61ff1c, height=0x61ff18) at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:9
+9	printf("type the base of the triangal \n");
++print a 
+No symbol "a" in current context.
++print base
+$1 = (float *) 0x61ff1c
++n
+10	scanf("%f",base);
++n
++r
+Starting program: c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02/./problem01.exe 
+[New Thread 22456.0x4c5c]
+[New Thread 22456.0x25dc]
+
+Breakpoint 1, input (base=0x61ff1c, height=0x61ff18) at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:9
+9	printf("type the base of the triangal \n");
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+10	scanf("%f",base);
++10
+Undefined command: "10".  Try "help".
++n
+
+Breakpoint 2, input (base=0x61ff1c, height=0x61ff18) at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:12
+12	printf("enter the height of the triangal\n");
++cd "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01"
+"c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01": Invalid argument.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+
+Breakpoint 3, output (area=0) at C:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem01.c:24
+24	printf("area=%.2f\n",area);
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++l
+19	*area=0.5*base*height;
+20	
+21	}
+22	void output(float area){
+23	
+24	printf("area=%.2f\n",area);
+25	
+26	}
+27	
+28	int main(){
++cd "c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01"
+"c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01": Invalid argument.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Inferior 1 (process 22456) exited normally]
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++l
+29	
+30	float base, height, area;
+31	
+32	
+33	input(&base,&height);
+34	
+35	find_area(base,height,&area);
+36	
+37	output(area);
+38	
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
