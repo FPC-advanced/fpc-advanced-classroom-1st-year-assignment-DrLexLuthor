@@ -31,7 +31,11 @@ void output(int n, int result){
   printf("%d is \n");
   if (result==1)
 
-{}
+{
+    printf("composit\n")
+
+}
+
 
 int main(){
     int n,res;
