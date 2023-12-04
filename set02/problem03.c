@@ -28,9 +28,7 @@ else
 }
 }
 void output(int n, int result){
-    if(result)
-    printf("%d is composite",n);
-    else{printf("not composite");}
+  printf(%d)
 }
 
 int main(){
