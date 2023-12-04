@@ -1,0 +1,3 @@
++bset logging enabled off
+Undefined command: "bset".  Try "help".
++set loggin off
