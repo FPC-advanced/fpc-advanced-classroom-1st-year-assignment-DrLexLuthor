@@ -12,7 +12,7 @@ int input_number(){
     
 }
 int is_composite(int n){
-{
+
 for (int i=2;i*i<=n;i++)
 {
     if(n%i==0)
@@ -26,7 +26,7 @@ else
 
 }
 }
-}
+
 void output(int n, int result){
   printf("%d is \n");
   if (result==1)
