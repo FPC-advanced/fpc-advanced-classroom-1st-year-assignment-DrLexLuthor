@@ -1,0 +1,10 @@
+Compilation started at 11/16/2023, 12:05:03 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem03.c: In function 'is_composite':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem03.c:15:18: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     for (i=2; i<=sqrt(n); i++)
+                  ^~~~
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem03.c:15:18: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem03.c:15:18: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 12:05:03 PM
+Compilation started at 11/16/2023, 12:05:35 PM
+Compilation finished at 11/16/2023, 12:05:35 PM
