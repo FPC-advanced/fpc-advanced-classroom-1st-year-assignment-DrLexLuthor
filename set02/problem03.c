@@ -28,7 +28,7 @@ else
 }
 
 void output(int n, int result){
-  printf("%d is ");
+  printf("%d is ",n);
   if (result==1)
 
 {
