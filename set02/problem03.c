@@ -28,8 +28,10 @@ else
 }
 }
 void output(int n, int result){
-  printf("%d is \n)
-}
+  printf("%d is \n");
+  if (result==1)
+
+{}
 
 int main(){
     int n,res;
