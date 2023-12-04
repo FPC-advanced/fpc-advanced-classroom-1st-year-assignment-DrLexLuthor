@@ -32,7 +32,7 @@ void output(int n, int result){
   if (result==1)
 
 {
-    printf("composit\n")
+    printf("composit\n");
 
 }
 
@@ -40,7 +40,8 @@ else{
 
     printf("not composit\n");
 
-    
+
+}
 }
 int main(){
     int n,res;
