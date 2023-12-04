@@ -7,7 +7,8 @@ void output(int n, int result);
 int input_number(){
     int n;
     printf("enter the number");
-    scanf("%d",)
+    scanf("%d",&n);
+    return n;
     
 }
 int is_composite(int n){
