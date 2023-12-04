@@ -1,0 +1,21 @@
++b 5
+Breakpoint 1 at 0x40146e: file c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem01.c, line 5.
++r
+Starting program: c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01/./problem01.exe 
+[New Thread 21824.0x4f28]
+[New Thread 21824.0x4fc0]
+
+Breakpoint 1, main () at c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set01\problem01.c:5
+5	printf("Amogh.p");
++n
+6	    return 0;
++finish
+"finish" not meaningful in the outermost frame.
++finish
+"finish" not meaningful in the outermost frame.
++stop
++finish
+"finish" not meaningful in the outermost frame.
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
