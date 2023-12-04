@@ -13,8 +13,8 @@ int input_number(){
 }
 int is_composite(int n){
 {
+for (int i=2;i*i<=n;i++)
 
-    
 }
 }
 void output(int n, int result){
