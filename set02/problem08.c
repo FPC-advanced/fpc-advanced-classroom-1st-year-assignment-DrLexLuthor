@@ -13,14 +13,14 @@ void output(int n, Triangle t[n], Triangle smallest);
 int main()
 {
         int size;
-            size=input_array_size();
-                Triangle array[size];
-                    input_n_triangles(size,array);
-                        find_n_areas(size,array);
-                            Triangle smallest;
-                                smallest=find_smallest_triangle(size,array);
-                                    output(size,array,smallest);
-                                        return 0;
+         size=input_array_size();
+        Triangle array[size];
+         input_n_triangles(size,array);
+        find_n_areas(size,array);
+            Triangle smallest;
+            smallest=find_smallest_triangle(size,array);
+                  output(size,array,smallest);
+                        return 0;
 }
 int input_array_size()
 {
