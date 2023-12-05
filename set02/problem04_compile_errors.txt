@@ -1,0 +1,18 @@
+Compilation started at 12/4/2023, 10:57:58 PM
+Compilation finished at 1/4/2023, 10:57:58 PM
+Compilation started at 12/4/2023, 11:06:43 PM
+Compilation finished at 12/4/2023, 11:06:43 PM
+Compilation started at 12/4/2023, 11:08:52 PM
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem04.c: In function 'input_array_size':
+c:\Users\amogh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DrLexLuthor\set02\problem04.c:14:15: error: invalid operands to binary & (have 'char *' and 'int')
+ scanf("\t%d\n"&n);
+       ~~~~~~~~^
+Compilation finished at 12/4/2023, 11:08:52 PM
+Compilation started at 12/4/2023, 11:09:02 PM
+Compilation finished at 12/4/2023, 11:09:02 PM
+Compilation started at 12/4/2023, 11:09:52 PM
+Compilation finished at 12/4/2023, 11:09:52 PM
+Compilation started at 12/4/2023, 11:10:35 PM
+Compilation finished at 12/4/2023, 11:10:35 PM
+Compilation started at 12/5/2023, 10:55:00 AM
+Compilation finished at 12/5/2023, 10:55:01 AM
